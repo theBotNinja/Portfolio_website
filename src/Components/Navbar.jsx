@@ -68,8 +68,8 @@ export default function Navbar() {
             text-white
             transition-all
             duration-300
-            hover:text-cyan-400
-            hover:rotate-360
+            hover:text-indigo-400
+            
           "
         >
           {open ? "X" : "☰"}
