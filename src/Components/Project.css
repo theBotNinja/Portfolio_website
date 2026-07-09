@@ -1,0 +1,9 @@
+.observerDivProject {
+  opacity: 10%;
+  transition: all 0.7s;
+  transform: translateY(20%);
+}
+.observerDivProjectAnimation {
+  transform: translateY(-10%);
+  opacity: 100%;
+}

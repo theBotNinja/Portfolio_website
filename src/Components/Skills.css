@@ -1,0 +1,18 @@
+.rightDivObserver {
+  opacity: 10%;
+  transition: all 0.7s;
+  transform: translateX(20%);
+}
+.rightDivObserverAnimate {
+  transform: translateX(0%);
+  opacity: 100%;
+}
+.leftDivObserver {
+  opacity: 10%;
+  transition: all 0.7s;
+  transform: translateX(-20%);
+}
+.leftDivObserverAnimate {
+  transform: translateX(0%);
+  opacity: 100%;
+}
