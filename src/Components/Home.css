@@ -1,37 +1,86 @@
 body {
   overflow-x: hidden;
 }
+.frontImg1 {
+  animation: front1animate 2s 0.2s  ease-in infinite;
+}
+@keyframes front1animate {
+  0% {
+    transform: translateY(100px);
+    opacity: 0%;
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 70%;
+  }
+  40% {
+    opacity: 70%;
+  }
+  70% {
+    transform: translateX(-100px);
+    opacity: 0%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+
+.frontImg3 {
+  animation: front1animate3 2s .7s ease-in infinite;
+}
+@keyframes front1animate3 {
+  0% {
+    transform: translateY(100px);
+    opacity: 0%;
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 70%;
+  }
+  40% {
+    opacity: 70%;
+  }
+  70% {
+    transform: translateX(100px);
+    opacity: 0%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+
 
 #fgimg {
   position: absolute;
   z-index: 5;
   transition: all 0.7s;
 }
-.heroclass{
-    transform:translateY(50px)
+.heroclass {
+  transform: translateY(-200px);
 }
-.introClass{
-    opacity: 100%;
+.introClass {
+  opacity: 100%;
 }
-.displayimg{
-    opacity: 70%;
-    transform: translateY(-70%);
+.displayimg {
+  opacity: 70%;
+  transform: translateY(-70%);
 }
 .blinkAndVanish {
+  align-self: flex-end;
   animation: blink 1s ease-in 5 forwards;
 }
 @keyframes blink {
   0% {
-    opacity: 0%;
+    opacity: 20%;
   }
   50% {
     opacity: 60%;
   }
   100% {
-    opacity: 0%;
+    opacity: 20%;
   }
 }
-.introClasschildren{
+.introClasschildren {
   transition: all 0.7s;
   opacity: 1;
   transform: translateY(-10%);

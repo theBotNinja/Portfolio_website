@@ -1,5 +1,5 @@
 import React from 'react';
-import BgImg from "../assets/130.jpg";
+import BgImg from "../assets/111.jpeg";
 import { useEffect } from 'react';
 import "./Exp.css"
 const experienceData = [
@@ -54,9 +54,9 @@ const Experience = () => {
     return (
       <section id="experience" className=" bg-neutral-950  relative py-20 bg-fixed text-white overflow-hidden">
       <div className='backgrounditems'>
-        <div className='toplazer'></div>
-        <div className='middlelazer'></div>
-        <div className='bottomlazer'></div>
+        <div style={{ backgroundImage: `url(${BgImg})` }} className='bg-cover bg-center bg-fixed toplazer'></div>
+        <div style={{ backgroundImage: `url(${BgImg})` }} className='bg-cover bg-center bg-fixed middlelazer'></div>
+        <div style={{ backgroundImage: `url(${BgImg})` }} className='bg-cover bg-center bg-fixed bottomlazer'></div>
       </div>
       {/* Background ambient glows matching the education section */}
       <div className="absolute top-1/4 right-0 w-125 h-125 bg-emerald-500/5 rounded-full blur-3xl -z-10 transform translate-x-1/2"></div>
