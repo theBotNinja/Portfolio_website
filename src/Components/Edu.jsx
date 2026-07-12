@@ -125,7 +125,7 @@ const Education = () => {
 
         <div className="relative">
           {/* Main vertical line */}
-          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-linear-to-b from-cyan-500/50 via-purple-500/50 to-transparent transform md:-translate-x-1/2"></div>
+          <div className="hidden md:flex absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-linear-to-b from-cyan-500/50 via-purple-500/50 to-transparent transform md:-translate-x-1/2"></div>
 
           <div className="space-y-12">
             {educationData.map((item, index) => (
@@ -142,7 +142,7 @@ const Education = () => {
 
                 {/* Content Card */}
                 <div
-                  className={` ml-20 md:ml-0 w-full md:w-[45%] ${
+                  className={` ml-20 md:ml-0 w-90 md:w-[45%] ${
                     index % 2 === 0 ? "md:pr-16 md:text-right" : "md:pl-16"
                   }`}
                 >

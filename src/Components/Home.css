@@ -8,17 +8,19 @@ body {
   0% {
     transform: translateY(100px);
     opacity: 0%;
+    filter: saturate(0);
   }
   20% {
     transform: translateY(0);
-    opacity: 70%;
+    opacity: 60%;
   }
   40% {
-    opacity: 70%;
+    opacity: 60%;
   }
   70% {
     transform: translateX(-100px);
     opacity: 0%;
+    filter: saturate(100%);
   }
   100%{
     opacity: 0%;
@@ -30,19 +32,21 @@ body {
 }
 @keyframes front1animate3 {
   0% {
+    filter: saturate(0%);
     transform: translateY(100px);
     opacity: 0%;
   }
   20% {
     transform: translateY(0);
-    opacity: 70%;
+    opacity: 60%;
   }
   40% {
-    opacity: 70%;
+    opacity: 60%;
   }
   70% {
     transform: translateX(100px);
     opacity: 0%;
+    filter: saturate(100%);
   }
   100%{
     opacity: 0%;

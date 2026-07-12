@@ -47,7 +47,7 @@ const socialLinks = [
 const Contact = () => {
   return (
     <section id='contact'
-     style={{ backgroundImage: `url(${BgImg})` }} className="bg-cover bg-blend-multiply relative py-24 bg-neutral-900 text-white overflow-hidden">
+     style={{ backgroundImage: `url(${BgImg})` }} className="bg-cover bg-center bg-blend-multiply relative py-24 bg-neutral-900 text-white overflow-hidden">
       {/* Final Ambient Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-200 bg-indigo-600/10 rounded-full blur-[150px] -z-10 pointer-events-none"></div>
       

@@ -2,9 +2,8 @@ import React from "react";
 import BgImg from "../assets/115.png";
 import FgImg from "../assets/fg.png";
 import MyImg from "../assets/myimg200kb.jpg";
-import MyImgBg2 from "../assets/resume.png";
-import MyImgBg3 from "../assets/algorithm.png";
-import MyImgBg4 from "../assets/api.png";
+import MyImgBg2 from "../assets/comp.png";
+import MyImgBg4 from "../assets/3d.png";
 import "./Home.css";
 import { useEffect } from "react";
 
@@ -53,7 +52,7 @@ export default function Home() {
       </div>
       <img
         id="fgimg"
-        className="w-full md:scale-100 scale-200 md:-bottom-11/12 -bottom-11/12"
+        className="w-full md:scale-100 scale-200 md:-bottom-11/12 -bottom-2/5"
         src={FgImg}
         alt=""
         srcSet=""
@@ -61,10 +60,10 @@ export default function Home() {
       <div className="flex mt-52 flex-col">
         <h1
           id="herotext"
-          className="transition-all p-4 flex-1 duration-1000 text-5xl md:text-7xl md:pt-28 max-w-4xl text-center opacity-80 font-extrabold tracking-tight text-white mb-6"
+          className="transition-all md:p-4 p-10 rubikfont flex-1 duration-1000 text-5xl md:text-7xl md:pt-28 max-w-4xl text-center opacity-80 tracking-tight text-white mb-6"
         >
           Do it{" "}
-          <span className="text-transparent rubikfont bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400">
+          <span className="text-transparent  bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400">
             with passion
           </span>{" "}
           or not at all.
@@ -72,17 +71,17 @@ export default function Home() {
         <div id="midimgdiv" className="transition-all duration-800 flex items-center justify-evenly">
           <img
             src={MyImgBg2}
-            className="frontImg1 h-50 w-50"
+            className="frontImg1 h-30 w-30 md:h-40 md:w-40"
             alt=""
             srcSet=""
           />
           <span className="flex-col text-neutral-100 text-3xl  blinkAndVanish flex self-end items-center justify-center">
-            <p className="bitfont-400 animate-pulse">Scroll slow</p>
+            <p className="bitfont-400 animate-pulse flex-1">Scroll slow</p>
             <p className="">↓</p>
           </span>
           <img
             src={MyImgBg4}
-            className="frontImg3 h-50 w-50"
+            className="frontImg3 h-30 w-30 md:h-40 md:w-40"
             alt=""
             srcSet=""
           />
@@ -106,7 +105,7 @@ export default function Home() {
               srcSet=""
             />
               </span>
-            <p className="text-neutral-200 flex-1 md:text-2xl text-lg bitfont-200">
+            <p className="text-neutral-200 flex-1 p-5 md:text-xl text-lg bitfont-200">
               Hey, I'm{" "}
               <span className=" text-blue-300 font-bold rubikfont">
                 Devansh Kumar joshi
