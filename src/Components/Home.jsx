@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <img
         id="fgimg"
-        className="w-full md:scale-100 scale-200 md:-bottom-11/12 -bottom-2/5"
+        className="w-full md:scale-100 scale-300 md:-bottom-11/12 -bottom-2/5"
         src={FgImg}
         alt=""
         srcSet=""

@@ -3,10 +3,10 @@ import BgImg from "../assets/112.jpg";
 import "./Skills.css";
 const skillsData = [
   {
-    category: "AI & Machine Learning",
+    category: "Udemy Complete Data Science DL, NLP bootcamp",
     icon: (
       <svg
-        className="w-6 h-6 text-violet-400"
+      className="w-6 h-6 text-violet-400"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -19,32 +19,11 @@ const skillsData = [
         />
       </svg>
     ),
-    skills: ["Python", "Deep Learning", "CNN-LSTM", "GRU-RNN", "Pandas"],
+    skills: ["Python", "Deep Learning", "CNN-LSTM", "GRU-RNN", "Pandas","LLM"],
     color: "group-hover:border-violet-500/50",
   },
   {
-    category: "Full-Stack Development",
-    icon: (
-      <svg
-        className="w-6 h-6 text-amber-400"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-        />
-      </svg>
-    ),
-    skills: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-    color: "group-hover:border-amber-500/50",
-  },
-  {
-    category: "Architecture & Tools",
-    icon: (
+    category: "NPTEL Introduction to Machine Learning",icon: (
       <svg
         className="w-6 h-6 text-orange-400"
         fill="none"
@@ -59,11 +38,32 @@ const skillsData = [
         />
       </svg>
     ),
+    
+    skills: ["Top %5", "Silver Certificate", "Model Evaluation", "ML maths"],
+    color: "group-hover:border-amber-500/50",
+  },
+  {
+      category: "NPTEL Getting Started with Competitive Programming",
+    icon: (
+      <svg
+        className="w-6 h-6 text-amber-400"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+          />
+      </svg>
+    ),
     skills: [
-      "Socket.IO",
-      "Google Maps API",
-      "Windows Forensics",
-      "Penetration Testing",
+      "Silver Certificate",
+      "Problem Solving",
+      "coding",
+      "DSA",
     ],
     color: "group-hover:border-orange-500/50",
   },
@@ -73,6 +73,7 @@ const achievementsData = [
   {
     id: 1,
     title: "GATE 2025 Qualified",
+    
     issuer: "Graduate Aptitude Test in Engineering",
     icon: (
       <svg
@@ -169,7 +170,7 @@ const SkillsAndCerts = () => {
     <section
       id="skills"
       style={{ backgroundImage: `url(${BgImg})` }}
-      className="bg-center bg-cover bg-blend-multiply bg-fixed relative py-20 bg-neutral-900 text-white overflow-hidden"
+      className="bg-center bg-cover bg-blend-multiply bg-fixed relative py-20 bg-neutral-800 text-white overflow-hidden"
     >
       {/* Ambient Glows */}
       <div className="absolute top-1/3 left-1/4 w-100 h-100 bg-amber-500/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>

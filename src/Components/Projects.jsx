@@ -5,13 +5,13 @@ import './Project.css'
 const projectsData = [
   {
     id: 1,
-    title: 'Machine Learning-Based Intrusion Detection in EVs',
-    category: 'Final Year Research Project',
+    title: 'Raaghav Diagnostic Centre Website',
+    category: 'Freelance Web Project',
     description:
-      'A robust security framework for Electric Vehicles utilizing a Hybrid Deep Neural Network architecture. Implements CNN-LSTM models to detect and mitigate anomalous behaviors and network intrusions in real-time.',
-    technologies: ['Python', 'CNN-LSTM', 'Deep Learning', 'Data Security'],
-    githubLink: '#',
-    liveLink: '#',
+      `Developed and deployed a responsive business website for a diagnostic centre to improve its online presence and patient accessibility.`,
+    technologies: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Responsive Design', 'Vercel'],
+    githubLink: 'https://github.com/theBotNinja/RaaghavDiagnosticCentre',
+    liveLink: 'https://raaghav-diagnostic-centre.vercel.app/',
   },
   {
     id: 2,
@@ -19,19 +19,19 @@ const projectsData = [
     category: 'Full-Stack Web Application',
     description:
       'A comprehensive women\'s safety platform providing real-time safety alerts. Engineered with active AI model integration for threat detection and live location tracking capabilities.',
-    technologies: ['MERN Stack', 'Socket.IO', 'Google Maps API', 'AI Integration'],
-    githubLink: '#',
-    liveLink: '#',
+    technologies: ['MERN Stack', 'LLM', 'Maps API', 'Heat map',"React.js"],
+    githubLink: 'https://github.com/theBotNinja/HerShield-Frontend',
+    liveLink: 'https://project-frontend-smoky.vercel.app/',
   },
   {
     id: 3,
-    title: 'BotByte - Asset Price Predictor',
-    category: 'ML Challenge 2025 Submission',
+    title: 'Media Extractor Script',
+    category: 'Python Scripting',
     description:
-      'Developed a highly accurate Gated Recurrent Unit (GRU)-based Recurrent Neural Network for dynamic price prediction and market analysis. Built in collaboration with a cross-functional team.',
-    technologies: ['Python', 'GRU-RNN', 'Data Science', 'Pandas'],
-    githubLink: '#',
-    liveLink: '#',
+      'A handy Python script to extract and organize images, documents, videos, and audio files from a selected folder (including all its subfolders) into categorized folders.',
+    technologies: ['Python',  'Scripting','terminal'],
+    githubLink: 'https://github.com/theBotNinja/Media-Extractor-Script',
+    liveLink: 'https://github.com/theBotNinja/Media-Extractor-Script/releases/tag/v0.9999',
   },
 ];
 
@@ -54,7 +54,7 @@ const Projects = () => {
         return () => observer.disconnect();
       }, []);
   return (
-    <section id='projects' style={{ backgroundImage: `url(${BgImg})` }} className="bg-center bg-cover bg-blend-multiply relative py-20 bg-neutral-900 text-white overflow-hidden">
+    <section id='projects' style={{ backgroundImage: `url(${BgImg})` }} className="bg-center bg-cover bg-blend-multiply relative py-20 bg-neutral-800 text-white overflow-hidden">
       {/* Ambient Background Glows */}
       <div className="absolute top-0 right-1/4 w-150 h-150 bg-fuchsia-600/10 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
       <div className="absolute bottom-0 left-1/4 w-125 h-125 bg-rose-500/10 rounded-full blur-[120px] -z-10 pointer-events-none"></div>

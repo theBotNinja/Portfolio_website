@@ -9,8 +9,8 @@ const experienceData = [
     company: 'Hindalco, Renusagar',
     duration: 'June 2025 - July 2025',
     description:
-      'Engineered responsive frontend interfaces and dynamic digital survey tools for power plant operations, streamlining data collection processes and enhancing user interaction.',
-    technologies: ['React', 'Node.js', 'UI/UX Design', 'API Integration'],
+      'Engineered responsive frontend interfaces and dynamic digital survey tools for power plant operations and enhancing user interaction.',
+    technologies: ['React', 'Node.js', 'UI/UX Design', 'Python'],
     icon: (
       <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -23,7 +23,7 @@ const experienceData = [
     company: 'CDAC Noida',
     duration: 'June 2024 - July 2024',
     description:
-      'Conducted in-depth research on Windows forensics. Developed custom automated scripts to analyze vulnerabilities, enhancing system security and threat detection workflows.',
+      'Conducted in-depth Windows forensics. Developed custom automated scripts to analyze vulnerabilities, enhancing system security and threat detection.',
     technologies: ['Python', 'Windows Forensics', 'Scripting', 'Security Analysis'],
     icon: (
       <svg className="w-5 h-5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ const Experience = () => {
       return () => observer.disconnect();
     }, []);
     return (
-      <section id="experience" className=" bg-neutral-950  relative py-20 bg-fixed text-white overflow-hidden">
+      <section id="experience" className=" bg-stone-950  relative py-20 bg-fixed text-white overflow-hidden">
       <div className='backgrounditems'>
         <div style={{ backgroundImage: `url(${BgImg})` }} className='bg-cover bg-center bg-fixed toplazer'></div>
         <div style={{ backgroundImage: `url(${BgImg})` }} className='bg-cover bg-center bg-fixed middlelazer'></div>
